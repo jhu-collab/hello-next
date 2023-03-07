@@ -20,7 +20,7 @@ export function Welcome() {
         mx="auto"
         mt="xl"
       >
-        {`This a hello-world app!`}
+        {`This a preview build!`}
       </Text>
     </>
   );
