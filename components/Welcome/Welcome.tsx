@@ -1,27 +1,15 @@
-import { Title, Text } from "@mantine/core";
-import useStyles from "./Welcome.styles";
-
 export function Welcome() {
-  const { classes } = useStyles();
-
   return (
-    <>
-      <Title className={classes.title} align="center" mt={100}>
-        Welcome to <br />
-        <Text inherit variant="gradient" component="span">
-          Next + Mantine
-        </Text>
-      </Title>
-      <Text
-        color="dimmed"
-        align="center"
-        size="lg"
-        sx={{ maxWidth: 480 }}
-        mx="auto"
-        mt="xl"
-      >
-        {`This a preview build!`}
-      </Text>
-    </>
+    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
+        <h1 className="text-6xl font-bold">
+          Welcome to{" "}
+          <a className="text-blue-600" href="https://nextjs.org">
+            Next.js!
+          </a>
+        </h1>
+      </main>
+      {`This is a preview build!`}
+    </div>
   );
 }
