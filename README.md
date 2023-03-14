@@ -1,6 +1,6 @@
 # Sample NextJS
 
-Built with Next.js and Mantine.dev
+Built with Next.js and TailwindCSS
 
 ## Getting Started
 
@@ -15,11 +15,6 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-To learn more about Mantine.dev, take a look at the following resources:
-
-- [Mantine.dev Documentation](https://mantine.dev/) - learn about Mantine.dev features and API.
-- [Learn Mantine.dev](https://mantine.dev/pages/basics/) - this guide will help you get familiar with core Mantine concept.
 
 
 ## Deploy
